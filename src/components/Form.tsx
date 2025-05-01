@@ -1,15 +1,18 @@
 "use client";
 import styles from "@/styles/form.module.css";
 import data from "@/data/dataCollection.json";
+import { useRouter } from "next/navigation";
 
 function Form() {
+  const router = useRouter();
+
+  async function handleSubmit(e: any) {
+    e.preventDefault();
+    return router.push("/thankyou");
+  }
+
   return (
-    <form
-      action={"/thankyou"}
-      method="post"
-      autoComplete="on"
-      className={styles.form}
-    >
+    <form onSubmit={handleSubmit} method="post" autoComplete="on" className={styles.form}>
       <h2 className={styles.header}>{data.header}</h2>
       <label className={styles.label}>{data.name}</label>
       <input
