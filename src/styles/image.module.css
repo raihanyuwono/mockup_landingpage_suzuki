@@ -1,0 +1,11 @@
+@reference "tailwindcss";
+@reference "./theme.css";
+
+.imageContainer {
+    @apply flex justify-end laptop:justify-center;
+    @apply relative laptop:h-full w-full;
+}
+
+.images {
+    @apply object-contain;
+}

@@ -1,0 +1,29 @@
+@reference "tailwindcss";
+@reference "./theme.css";
+
+.form {
+  @apply flex flex-col gap-1 laptop:grow justify-start laptop:justify-center;
+  @apply w-full h-fit laptop:h-full;
+}
+
+.header {
+  @apply uppercase font-bold mx-auto laptop:mx-0 text-4xl text-center laptop:text-justify;
+}
+
+.label {
+  @apply capitalize font-bold;
+}
+
+.input {
+  @apply border rounded-lg;
+  @apply px-4 py-2 mb-2;
+}
+
+.submit {
+  @apply bg-primary rounded-lg uppercase font-bold text-lg cursor-pointer;
+  @apply py-4 mt-4;
+  @apply hover:-translate-y-1 hover:bg-secondary;
+  transition-property: translate, background-color;
+  transition-duration: .6s;
+  transition-timing-function: ease-in-out;
+}

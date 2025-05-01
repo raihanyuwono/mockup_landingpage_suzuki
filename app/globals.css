@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "../src/styles/theme.css";
+
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #171717;
+  --fg-primary: #0a0a0a;
+  --fg-secondary: #dadada;
+  --ac-primary: #0a0a0add;
+  --ac-secondary: #dadadadd;
+  --primary: #be0027;
+  --secondary: #3a4d98;
+}
+
+html {
+  @apply scroll-smooth snap-y snap-mandatory;
+}
+
+body {
+  @apply bg-background-primary text-foreground-primary;
+  @apply overflow-auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  @apply flex gap-4 flex-col laptop:flex-row items-center justify-center;
+  @apply w-screen h-screen snap-start snap-always;
+  @apply px-8 tablet:px-16 laptop:px-32 desktop:px-64;
+  @apply py-8 tablet:py-10 laptop:py-12;
+}
+
+section:nth-child(odd){
+  @apply bg-background-primary text-foreground-primary;
+}
+
+section:nth-child(even){
+  @apply bg-background-secondary text-foreground-secondary;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

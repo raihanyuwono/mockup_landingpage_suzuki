@@ -1,0 +1,13 @@
+@reference "tailwindcss";
+@reference "./theme.css";
+
+.fab {
+  @apply fixed bottom-12 right-12;
+  @apply fill-secondary border-secondary;
+  @apply border-2 rounded-full;
+  @apply cursor-pointer;
+  @apply hover:fill-primary hover:border-primary;
+  transition-property: fill, border-color;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
