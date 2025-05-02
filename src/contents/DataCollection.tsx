@@ -1,7 +1,7 @@
 "use client";
 import Form from "@/components/Form";
 import Section from "@/components/Section";
-import ImageCustom from "@/src/components/ImageCustom";
+import ImageCustom from "@/components/ImageCustom";
 
 function DataCollection() {
   return (
