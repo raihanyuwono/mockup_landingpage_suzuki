@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Titan_One } from "next/font/google";
 import "./globals.css";
+import MetaPixelTracker from "@/components/trackers/MetaPixel";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <MetaPixelTracker />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${titanOne.variable} antialiased`}
       >
