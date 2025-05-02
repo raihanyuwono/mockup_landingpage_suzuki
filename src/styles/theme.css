@@ -12,6 +12,7 @@
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-titan-one: var(--font-titan-one);
 
   --breakpoint-tablet: 640px;
   --breakpoint-laptop: 1024px;

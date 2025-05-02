@@ -1,0 +1,18 @@
+@reference "tailwindcss";
+@reference "./theme.css";
+
+.container {
+  @apply w-full h-full flex flex-col;
+}
+
+.containerGreeting{
+  @apply flex flex-col grow items-center justify-center bg-red-800;
+}
+
+.header {
+  @apply text-8xl font-bold uppercase font-titan-one;
+}
+
+.info {
+  @apply text-accent-primary;
+}

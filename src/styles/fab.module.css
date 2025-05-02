@@ -2,7 +2,7 @@
 @reference "./theme.css";
 
 .fab {
-  @apply fixed bottom-12 right-12;
+  @apply fixed bottom-4 right-4 tablet:bottom-12 tablet:right-12;
   @apply fill-secondary border-secondary;
   @apply border-2 rounded-full;
   @apply cursor-pointer;
