@@ -1,8 +1,8 @@
 "use client";
 
-import FabGoTop from "@/src/components/FabGoTop";
-import DataCollection from "@/src/contents/DataCollection";
-import Promotion from "@/src/contents/Promotion";
+import FabGoTop from "@/components/FabGoTop";
+import DataCollection from "@/contents/DataCollection";
+import Promotion from "@/contents/Promotion";
 
 export default function Home() {
   return (
