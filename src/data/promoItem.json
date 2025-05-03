@@ -1,0 +1,40 @@
+{
+  "header": "Berlaku untuk Semua Tipe Dibawah!",
+  "items": [
+    {
+      "name": "Suzuki Ertiga",
+      "src": "",
+      "info": "MPV keluarga",
+      "price": 263100000,
+      "discountedPrice": 231528000
+    },
+    {
+      "name": "Suzuki XL7",
+      "src": "",
+      "info": "SUV Stylish dan Tangguh",
+      "price": 290000000,
+      "discountedPrice": 255200000
+    },
+    {
+      "name": "Suzuki Baleno",
+      "src": "",
+      "info": "Hatchback Modern",
+      "price": 320000000,
+      "discountedPrice": 281600000
+    },
+    {
+      "name": "Suzuki S-Presso",
+      "src": "",
+      "info": "Mini SUV Entry-level",
+      "price": 202600000,
+      "discountedPrice": 178288000
+    },
+    {
+      "name": "Suzuki Grand Vitara",
+      "src": "",
+      "info": "SUV Hybrid Premium",
+      "price": 429350000,
+      "discountedPrice": 377828000
+    }
+  ]
+}

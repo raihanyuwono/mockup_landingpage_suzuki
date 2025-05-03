@@ -1,0 +1,30 @@
+@reference "tailwindcss";
+@reference "./theme.css";
+
+.wrapper {
+
+}
+
+.header {
+
+}
+
+.cardContainer {
+
+}
+
+.cardImage {
+    
+}
+
+.cardName {
+
+}
+
+.cardPrice {
+
+}
+
+.cardDiscountedPrice {
+
+}
