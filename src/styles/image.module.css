@@ -3,7 +3,7 @@
 
 .imageContainer {
     @apply flex justify-end laptop:justify-center;
-    @apply relative laptop:h-full w-full;
+    @apply relative;
 }
 
 .images {

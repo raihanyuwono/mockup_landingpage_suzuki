@@ -6,8 +6,8 @@
 }
 
 .logo {
-  @apply absolute left-8 tablet:left-16 laptop:relative laptop:left-0;
-  @apply top-8 tablet:top-10 laptop:top-0;
+  @apply relative mx-auto laptop:mx-0;
+  @apply w-64 h-20;
 }
 
 .header {
@@ -15,7 +15,15 @@
 }
 
 .subheader {
-  @apply text-accent-primary text-center laptop:text-start;
+  @apply text-accent-primary text-center laptop:text-start text-lg italic;
+}
+
+.invitation {
+  @apply -mt-2 text-secondary text-center laptop:text-start text-lg font-bold;
+}
+
+.image {
+  @apply w-full laptop:w-1/2 h-1/3 laptop:h-1/2;
 }
 
 .button {

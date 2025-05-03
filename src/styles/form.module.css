@@ -1,6 +1,10 @@
 @reference "tailwindcss";
 @reference "./theme.css";
 
+.image{
+  @apply w-full h-42 laptop:h-full
+}
+
 .form {
   @apply flex flex-col gap-1 laptop:grow justify-start laptop:justify-center;
   @apply w-full h-fit laptop:h-full;

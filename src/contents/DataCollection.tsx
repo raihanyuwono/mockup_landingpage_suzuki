@@ -2,6 +2,7 @@
 import Form from "@/components/Form";
 import Section from "@/components/Section";
 import ImageCustom from "@/components/ImageCustom";
+import styles from "@/styles/form.module.css";
 
 function DataCollection() {
   return (
@@ -9,7 +10,7 @@ function DataCollection() {
       <ImageCustom
         src="/images/suzuki_cars.webp"
         alt="5 Mobil Suzuki"
-        height="h-40"
+        size={styles.image}
       />
       <Form />
     </Section>
