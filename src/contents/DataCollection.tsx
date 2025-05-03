@@ -10,7 +10,7 @@ function DataCollection() {
       <ImageCustom
         src="/images/suzuki_cars.webp"
         alt="5 Mobil Suzuki"
-        size={styles.image}
+        styles={styles.image}
       />
       <Form />
     </Section>

@@ -1,18 +1,27 @@
 @reference "tailwindcss";
 @reference "./theme.css";
 
+
 .container {
-  @apply w-full h-full flex flex-col;
+  @apply w-full h-full flex flex-col items-center justify-center gap-3;
+}
+
+.completed {
+  @apply w-20 h-20 laptop:w-28 laptop:h-28 fill-secondary;
 }
 
 .containerGreeting{
-  @apply flex flex-col grow items-center justify-center bg-red-800;
+  @apply flex flex-col items-center justify-center;
 }
 
 .header {
-  @apply text-8xl font-bold uppercase font-titan-one;
+  @apply text-5xl laptop:text-7xl font-bold uppercase font-titan-one text-center;
 }
 
 .info {
-  @apply text-accent-primary;
+  @apply text-sm laptop:text-base text-accent-primary text-center;
+}
+
+.image {
+  @apply w-full h-50;
 }

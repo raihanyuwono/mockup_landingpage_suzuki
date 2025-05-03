@@ -1,17 +1,17 @@
 import Image from "next/image";
-import styles from "@/styles/image.module.css";
+import style from "@/styles/image.module.css";
 
 interface Props {
   src: string;
   alt: string;
-  size: string;
+  styles: string;
 }
 
-function ImageCustom({ src, alt, size="h-full w-full" }: Props) {
+function ImageCustom({ src, alt, styles="h-full w-full" }: Props) {
   return (
-    <div className={`${styles.imageContainer} ${size}`}>
+    <div className={`${style.imageContainer} ${styles}`}>
       <Image
-        className={styles.images}
+        className={style.images}
         src={src}
         alt={alt}
         fill
