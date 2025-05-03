@@ -1,0 +1,28 @@
+@reference "tailwindcss";
+@reference "./theme.css";
+
+.wrapper {
+    @apply w-full h-full flex flex-col items-center;
+}
+
+.header {
+  @apply h-1/4 desktop:h-1/6 text-3xl tablet:text-5xl font-titan-one uppercase text-center content-center;
+}
+
+.container {
+  @apply w-full h-2/3 desktop:h-3/4 ultra:px-48;
+  @apply grid grid-cols-2 tablet:grid-cols-3 gap-8 items-center;
+}
+
+.cardContainer {
+  @apply flex flex-col gap-2 desktop:gap-4 aspect-square items-center justify-center;
+  @apply p-4 border-4 rounded-2xl;
+}
+
+.cardImage {
+  @apply w-16 h-16 tablet:w-28 tablet:h-28 laptop:w-32 laptop:h-32 ultra:w-40 ultra:h-40;
+}
+
+.cardContent {
+  @apply text-xs tablet:text-base desktop:text-lg ultra:text-xl text-center font-bold italic;
+}

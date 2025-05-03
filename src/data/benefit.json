@@ -1,0 +1,10 @@
+{
+  "header": "Nikmati Keuntungan Eksklusif",
+  "benefits": [
+    { "content": "Diskon hingga 20 Juta", "src": "/images/discount.svg" },
+    { "content": "Cicilan Mulai dari 3 Juta/bulan", "src": "/images/dollar.svg" },
+    { "content": "Tenor Fleksibel hingga 4 tahun", "src": "/images/time.svg" },
+    { "content": "DP Ringan Mulai 10%", "src": "/images/credit.svg" },
+    { "content": "Bonus Aksesoris & Servis Berkala", "src": "/images/gift.svg" }
+  ]
+}

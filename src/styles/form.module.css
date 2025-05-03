@@ -11,7 +11,7 @@
 }
 
 .header {
-  @apply uppercase font-bold mx-auto laptop:mx-0 text-2xl tablet:text-3xl laptop:text-4xl text-center laptop:text-start;
+  @apply uppercase font-titan-one font-bold mx-auto laptop:mx-0 text-2xl tablet:text-3xl laptop:text-4xl text-center laptop:text-start;
 }
 
 .label {

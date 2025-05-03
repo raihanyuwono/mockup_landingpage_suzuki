@@ -11,7 +11,7 @@
 }
 
 .header {
-  @apply uppercase font-bold text-4xl text-center laptop:text-start;
+  @apply uppercase font-bold text-4xl font-titan-one text-center laptop:text-start;
 }
 
 .subheader {

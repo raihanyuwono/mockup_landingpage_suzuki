@@ -17,4 +17,5 @@
   --breakpoint-tablet: 640px;
   --breakpoint-laptop: 1024px;
   --breakpoint-desktop: 1280px;
+  --breakpoint-ultra: 1536px;
 }

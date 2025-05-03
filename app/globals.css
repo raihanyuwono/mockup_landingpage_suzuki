@@ -2,7 +2,7 @@
 @import "../src/styles/theme.css";
 
 :root {
-  --bg-primary: #ffffff;
+  --bg-primary: #fdfdfd;
   --bg-secondary: #171717;
   --fg-primary: #0a0a0a;
   --fg-secondary: #dadada;
