@@ -38,7 +38,7 @@ function Form() {
         placeholder={data.ph_phone}
         required
       />
-      <button className={styles.submit} type="submit">
+      <button id="submit" className={styles.submit} type="submit">
         {data.cta}
       </button>
     </form>
