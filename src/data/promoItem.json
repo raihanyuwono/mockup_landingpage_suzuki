@@ -3,35 +3,35 @@
   "items": [
     {
       "name": "Suzuki Ertiga",
-      "src": "",
+      "src": "/images/Suzuki_Ertiga.webp",
       "info": "MPV keluarga",
       "price": 263100000,
       "discountedPrice": 231528000
     },
     {
       "name": "Suzuki XL7",
-      "src": "",
+      "src": "/images/Suzuki_XL7.webp",
       "info": "SUV Stylish dan Tangguh",
       "price": 290000000,
       "discountedPrice": 255200000
     },
     {
       "name": "Suzuki Baleno",
-      "src": "",
+      "src": "/images/Suzuki_Baleno.webp",
       "info": "Hatchback Modern",
       "price": 320000000,
       "discountedPrice": 281600000
     },
     {
       "name": "Suzuki S-Presso",
-      "src": "",
+      "src": "/images/Suzuki_S-Presso.webp",
       "info": "Mini SUV Entry-level",
       "price": 202600000,
       "discountedPrice": 178288000
     },
     {
       "name": "Suzuki Grand Vitara",
-      "src": "",
+      "src": "/images/Suzuki_Grand_Vitara.webp",
       "info": "SUV Hybrid Premium",
       "price": 429350000,
       "discountedPrice": 377828000

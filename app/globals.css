@@ -23,7 +23,7 @@ body {
 }
 
 section {
-  @apply flex gap-4 flex-col laptop:flex-row items-center justify-center;
+  @apply flex gap-4 flex-col laptop:flex-row items-center justify-center overflow-hidden;
   @apply w-screen h-screen snap-start snap-always;
   @apply px-8 tablet:px-16 laptop:px-32 desktop:px-64;
   @apply py-8 tablet:py-10 laptop:py-12;

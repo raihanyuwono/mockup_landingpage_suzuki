@@ -2,29 +2,56 @@
 @reference "./theme.css";
 
 .wrapper {
-
+  @apply relative flex flex-col h-full w-full items-center justify-center;
 }
 
 .header {
+  @apply h-1/4 font-titan-one text-center;
+  @apply content-center text-3xl tablet:text-5xl;
+}
 
+.arrow {
+  @apply absolute h-12 w-12 tablet:h-16 tablet:w-16 top-1/2;
+  @apply cursor-pointer;
+}
+
+.arrowL {
+  @apply -rotate-90 -left-6 tablet:-left-8 laptop:left-0 desktop:-left-16;
+}
+
+.arrowR {
+  @apply rotate-90 -right-6 tablet:-right-8 laptop:right-0 desktop:-right-16;
+}
+
+.gallery {
+  @apply h-3/4 w-full px-8;
+  @apply overflow-x-scroll snap-x snap-mandatory scroll-smooth;
+  @apply flex flex-row gap-4;
+}
+
+.gallery::-webkit-scrollbar {
+  display: none;
 }
 
 .cardContainer {
-
+  @apply flex flex-col grow items-center justify-center laptop:justify-start;
+  @apply snap-center snap-always;
 }
 
 .cardImage {
-    
+  @apply object-contain aspect-square;
+  @apply w-[84vw] tablet:w-[80vw] laptop:min-w-max desktop:w-full;
+  @apply h-3/5 laptop:h-4/6;
 }
 
 .cardName {
-
+  @apply font-bold text-3xl tablet:text-4xl;
 }
 
 .cardPrice {
-
+  @apply line-through italic decoration-primary text-xl tablet:text-2xl;
 }
 
 .cardDiscountedPrice {
-
+  @apply font-bold text-2xl tablet:text-3xl;
 }
