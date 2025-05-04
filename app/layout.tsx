@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Titan_One } from "next/font/google";
 import "./globals.css";
-import MetaPixelTracker from "@/components/trackers/MetaPixel";
+import MetaPixelTracker from "@/components/trackers/MetaPixelTracker";
+import TiktokPixelTracker from "@/components/trackers/TiktokPixelTracker";
+import GoogleConversionTracker from "@/components/trackers/GoogleConversionTracker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +36,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <MetaPixelTracker />
+        <TiktokPixelTracker />
+        <GoogleConversionTracker />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${titanOne.variable} antialiased`}
